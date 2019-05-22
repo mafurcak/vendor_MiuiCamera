@@ -137,7 +137,7 @@
     <!--whether taking full size effect image in camera-->
     <bool name="is_full_size_effect">true</bool>
     <!--whether support aohdr in camera-->
-    <bool name="support_camera_aohdr">false</bool>
+    <bool name="support_camera_aohdr">true</bool>
     <!--whether support high frame recording in camera-->
     <bool name="support_camera_hfr">true</bool>
     <!--whether support chroma flash in camera-->
@@ -348,7 +348,7 @@
     <!-- Camera HDR default value -->
     <integer name="support_camera_hdr_default_value">3</integer>
     <!-- Camera Front HDR default value -->
-    <integer name="support_camera_front_hdr_default_value">1</integer>
+    <integer name="support_camera_front_hdr_default_value">3</integer>
 　　<!--whether front camera support hht or not-->
     <bool name="support_front_hht">true</bool>
     <!--whether front camera support bokeh or not-->
@@ -382,7 +382,11 @@
     <!--front screen night ahead time when capture-->
     <integer name="support_camera_screen_light_ahead_time">1000</integer>
     <!--hide hht menu or not-->
+    <!-- whether this device is Android one -->
+    <bool name="is_android_one_device">true</bool>
     <bool name="is_camera_hide_hht_menu">true</bool>
+    <!--whether support tele asd night in camera-->
+    <bool name="is_support_tele_asd_night">true</bool>
     <!-- whether support 3d face beauty or not-->
     <bool name="support_3d_face_beauty">true</bool>
     <!-- support void front mirror or not -->
